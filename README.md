@@ -1,2 +1,2 @@
-# MitonGarciaProyecto3-
-Tercera pre-entrega del proyecto
+# MiltonGarciaProyecto
+Este es el repositorio para la entrega del Proyecto.
