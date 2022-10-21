@@ -1,0 +1,50 @@
+.navbar {
+    width: 100%;
+}
+
+.navbar-expand-lg {
+    position: fixed;
+}
+
+.navbar-toggler-icon {
+    background-image: url("../img/logoboton.jpg") ;
+}
+
+.navbar-brand img{
+    width: 50%;
+    border: 1px solid   #646645;
+    border-radius: 100px;
+    opacity: 0.8;
+
+    animation-name: botoninicio;
+    animation-duration: 1s;
+    animation-iteration-count: 2;
+    animation-timing-function: ease-in-out;
+}
+
+.navbar-brand img:hover {
+    border: 2px solid rgb(39, 1, 1);
+    transform: scale(1.3);
+    box-shadow: 0px 0px 15px 15px #8f7e73;
+}
+
+.navbar-toggler {
+    background-color: white;
+    border-color: black;
+}
+
+
+.nav-link {
+    background-color: rgba(250, 255, 255, 0.639);
+    color: #646645;
+    text-align: center;
+    font-size: 16px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 1px double #2e2c2c ;
+    border-radius: 5px;
+}
+
+.img-regla {
+    overflow: hidden;
+    opacity: 0.5;
+}

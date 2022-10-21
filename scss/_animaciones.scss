@@ -1,0 +1,41 @@
+/* Animaciones */
+
+@keyframes botoninicio {
+    0% {
+        rotate: 0deg;
+    }
+
+    33% {
+        rotate: 20deg;
+    }
+
+    66% {
+        rotate: -20deg;
+    }
+    100% {
+        rotate: 0deg;
+    }
+}
+
+@keyframes entrada {
+    0% {
+        transform: translatex(-2000px);
+        scale: 2;
+        rotate: 40deg;
+
+    }
+    50% {
+        transform: translatex(100px);
+    }
+    100% {
+        transform: translatex(0px);
+    }
+}
+
+@keyframes botonescribinos {
+    50% {
+        scale: 1.05;
+    }
+}
+
+

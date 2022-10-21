@@ -1,0 +1,112 @@
+    /* primera sección */
+
+    .comotrabajamos {
+        background: rgb(235,231,227);
+        background: linear-gradient(90deg, rgba(235,231,227,1) 0%, rgba(78,83,87,0.927608543417367) 0%, rgba(106,110,114,0.8911939775910365) 13%, rgba(182,179,163,1) 96%);
+     }
+
+    .presentacion {
+        background-color: white;
+    }
+
+    
+
+   .presentacion-contenido {
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .presentacion-contenido p span{
+        font-size: 12px;
+        font-style: italic;
+    }
+
+    .presentacion-contenido button {
+        margin-bottom: 20px;
+        box-shadow: 3px -3px 5px 5px #7282e2ab;
+
+
+        animation-name: botonescribinos;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+    }
+
+    .presentacion-integrantes {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .integrante {
+        background-color: #ADA996;
+        margin: 15px;
+        max-width: 600px;
+        border-radius: 100px;
+        align-items: center;
+        box-shadow: 3px -3px 5px 5px #ada9967a;
+        
+        display: flex;
+    }
+
+    .integrante img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: 3px solid rgb(255, 255, 255);
+        object-fit: cover;
+    }
+
+    .integrante h4 {
+        color: white;
+        font-weight: 700;
+        margin: 0 3px;
+    }
+
+    .integrante p {
+        font-size: 12px;
+        margin: 5px;
+    }
+
+    .integrante2 {
+        display: flex;
+        flex-direction: row-reverse;
+        text-align: right;
+    }
+
+    /* segunda seccion */
+
+    .accordion {
+        margin: 16px;
+    }
+
+    .accordion-item {
+        background-color: transparent;
+    }
+
+    .accordion-button {
+        background-color: rgba(245, 222, 179, 0.241);
+        font-weight: 800;
+        color: #646645;
+    }
+
+    .accordion-button:not(.collapsed) {
+        background-color: rgba(245, 222, 179, 0.196);
+        color: #68391f;
+        font-size: 1.5rem;
+    }
+
+    /* tercera seccion */
+
+    .marcas {
+        background-color: white;
+    }
+
+    .marcas-nombres {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+
+
+

@@ -1,6 +1,60 @@
 // import de css de bootstrap
 @import "bootstrap/bootstrap.scss";
+@import "header";
+@import "navbar";
+@import "main";
+@import "footer";
+@import "home-page";
+@import "page-proyecto";
+@import "page-contactenos";
+@import "page-cursos";
+@import "animaciones";
+@import "elemento-divisor";
+@import "container";
+@import "titulos";
 
-div {
-    background-color: red
-}
+
+        /* media Queries */
+
+        @media (min-width: 1024px) {
+            .nav-link {
+                margin: 0 50px;
+            }
+            .navbar {
+                background-color: #d7c2b77a;
+            }
+
+            #navbarNav {
+                justify-content: center;
+            }
+        }
+
+
+
+        @media (min-width: 1024px) {
+            .proyecto {
+                width: 40%;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .mapa iframe {
+                width: 600px;
+                height: 600px;
+            }
+            .main-contactenos{
+                flex-direction: row;
+            }
+        }
+
+
+
+        @media (min-width: 1024px) {
+            #cursos {
+                width: 80%;
+                margin: auto;
+                display: block;
+                opacity: 0.9;
+                border-radius: 20%;
+            }
+        }

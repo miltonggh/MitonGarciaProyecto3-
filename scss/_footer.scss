@@ -1,0 +1,21 @@
+    footer{
+        background-color: rgb(209, 209, 209);
+        border-top: 1px rgb(52, 52, 52)   solid;
+    }
+
+    .derechos p {
+        text-align: center;
+        font-size:12px;
+    }
+
+    .redes{
+        padding-bottom: 15px;
+    }
+
+    .redes ul{
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        padding: 0;
+        
+    }

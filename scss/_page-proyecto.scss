@@ -1,0 +1,62 @@
+/* Estilo Page Proyectos */
+
+.proyecto {
+    width: 70%;
+}
+
+.proyecto-img {
+    display: grid;
+    grid-template-areas: 
+    "proyecto1 proyecto1 proyecto2"
+    "proyecto1 proyecto1 proyecto3"
+    "proyecto5 proyecto6 proyecto4" ;
+    
+    align-items: stretch;
+    justify-items: center;
+    border: 2px rgb(112, 96, 22);
+    border-style: double;
+    background-color: #eaeaea7e;
+
+}
+
+.proyecto-item img {
+    width: 100%;
+    display: block;
+}
+
+.proyecto-item h3{
+    background-color: hsla(0, 0%, 18%, 0.464);
+    text-align: center;
+    margin: 20px;
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.87);
+    border: double 5px rgb(251, 251, 251);
+}
+
+.proyecto1 {
+    grid-area: proyecto1;
+}
+
+.proyecto2 {
+    grid-area: proyecto2;
+}
+
+.proyecto3 {
+    grid-area: proyecto3;
+}
+
+.proyecto4 {
+    grid-area: proyecto4;
+}
+
+.proyecto5 {
+    grid-area: proyecto5;
+}
+
+.proyecto6 {
+    grid-area: proyecto6;
+}
+
+.proyecto:hover {
+    -webkit-transform:scale(1.3);transform:scale(1.3);
+}
