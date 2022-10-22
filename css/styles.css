@@ -8445,10 +8445,6 @@ span {
     justify-content: center; } }
 
 @media (min-width: 1024px) {
-  .proyecto {
-    width: 40%; } }
-
-@media (min-width: 1024px) {
   .mapa iframe {
     width: 600px;
     height: 600px; } }
@@ -8462,29 +8458,23 @@ span {
     border-radius: 20%; } }
 
 /* Estilo Page Proyectos */
-.proyecto {
-  width: 70%; }
-
 .proyecto-img {
   display: grid;
   grid-template-areas: "proyecto1 proyecto1 proyecto2" "proyecto1 proyecto1 proyecto3" "proyecto5 proyecto6 proyecto4";
   align-items: stretch;
   justify-items: center;
   border: 2px #706016;
-  border-style: double;
-  background-color: #eaeaea7e; }
+  border-style: double; }
 
-.proyecto-item img {
+.proyecto {
   width: 100%;
   display: block; }
 
 .proyecto-item h3, .proyecto-item .h3 {
-  background-color: rgba(46, 46, 46, 0.464);
-  text-align: center;
+  background-color: #ADA996;
   margin: 20px;
-  font-size: 40px;
-  color: rgba(255, 255, 255, 0.87);
-  border: double 5px #fbfbfb; }
+  border: double 5px #fbfbfb;
+  border-radius: 30%; }
 
 .proyecto1 {
   grid-area: proyecto1; }
@@ -8505,8 +8495,8 @@ span {
   grid-area: proyecto6; }
 
 .proyecto:hover {
-  -webkit-transform: scale(1.3);
-  transform: scale(1.3); }
+  -webkit-transform: scale(1.4);
+  transform: scale(1.4); }
 
 /* Animaciones */
 @keyframes botoninicio {
