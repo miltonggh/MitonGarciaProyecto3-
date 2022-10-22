@@ -1,0 +1,49 @@
+@mixin fonts ($size, $style, $weight, $color) {
+    font-size: $size;
+    font-style: $style;
+    font-weight: $weight;
+    color: $color;
+}
+
+h1 {
+    @include fonts ( $font-size*3, normal, $font-weight*2, $color-titulo);
+
+    text-decoration-line: underline;
+    line-height: 70px;
+
+    text-align: center;
+}
+
+h2  {
+    @include fonts ( $font-size*3, italic, $font-weight, $color-subtitulo);
+
+    text-align: center;
+}
+
+h3 {
+    @include fonts ( $font-size*3, normal, $font-weight*1.5, $color-titulo-contenedores);
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: #806f67;
+    text-align: center;
+    padding: 50px;
+
+    animation-name: entrada;
+    animation-duration: 2s;
+}
+
+h4 {
+    @include fonts ( $font-size*2, normal, $font-weight*2, $color-subtitulos-blancos);
+
+    margin: 0 3px;
+}
+
+p {
+    @include fonts ( $font-size*1.5, normal, $font-weight, $color-parrafos);
+
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+span{
+    @include fonts ( $font-size, italic, $font-weight*.75, $color-parrafos);
+}
