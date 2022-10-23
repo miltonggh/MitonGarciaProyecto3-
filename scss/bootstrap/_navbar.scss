@@ -5,6 +5,7 @@
 
 .navbar {
   width: 100%;
+  z-index: 2;
   
   // scss-docs-start navbar-css-vars
   --#{$prefix}navbar-padding-x: #{if($navbar-padding-x == null, 0, $navbar-padding-x)};
