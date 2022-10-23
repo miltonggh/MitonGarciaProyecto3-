@@ -3,6 +3,12 @@
 //
 
 .btn {
+  margin-bottom: 20px;
+  box-shadow: 3px -3px 5px 5px #7282e2ab;
+  
+  animation-name: botonescribinos;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
   // scss-docs-start btn-css-vars
   --#{$prefix}btn-padding-x: #{$btn-padding-x};
   --#{$prefix}btn-padding-y: #{$btn-padding-y};
