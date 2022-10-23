@@ -1,3 +1,4 @@
+/*Variables*/
 /*!
    * Bootstrap  v5.2.2 (https://getbootstrap.com/)
    * Copyright 2011-2022 The Bootstrap Authors
@@ -3371,13 +3372,14 @@ textarea.form-control-lg {
 
 .nav-link {
   background-color: #ADA996;
-  color: black;
+  color: #333333;
   text-align: center;
   font-size: 16px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   border: 1px double #2e2c2c;
   border-radius: 5px; }
 
+/*Card*/
 .integrante {
   background-color: #ADA996;
   margin: 30px;
@@ -3402,6 +3404,7 @@ textarea.form-control-lg {
 
 .accordion {
   margin: 16px;
+  max-width: 70%;
   --bs-accordion-color: #212529;
   --bs-accordion-bg: #fff;
   --bs-accordion-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
@@ -8293,6 +8296,7 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
+/*Header*/
 header {
   background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
   /* Chrome 10-25, Safari 5.1-6 */
@@ -8301,17 +8305,18 @@ header {
   background-size: cover;
   padding-top: 20%; }
 
+/*Main*/
 main {
   background-image: url(../img/fondo.jpg);
   background-repeat: repeat;
   background-size: contain; }
 
+/*Footer*/
 footer {
   background: linear-gradient(90deg, rgba(235, 231, 227, 0.808) 0%, rgba(78, 83, 87, 0.808) 0%, rgba(106, 110, 114, 0.795) 13%, rgba(182, 179, 163, 0.795) 96%);
   border-top: 1px #343434 solid; }
 
 .derechos p {
-  text-align: center;
   font-size: 12px; }
 
 .redes {
@@ -8322,12 +8327,14 @@ footer {
     list-style: none;
     padding: 0; }
 
+/*Elemento Divisor*/
 .elementodivisor {
   border: 1px solid #b3984f;
   width: 50%;
   margin: 15px;
   box-shadow: 2px -2px 1px 1px #ff000052; }
 
+/*Card*/
 .integrante {
   background-color: #ADA996;
   margin: 30px;
@@ -8350,11 +8357,12 @@ footer {
     font-size: 12px;
     margin: 5px; }
 
+/*Estilo de Texto*/
 h1, .h1 {
   font-size: 36px;
   font-style: normal;
   font-weight: 800;
-  color: black;
+  color: #333333;
   text-decoration-line: underline;
   line-height: 70px;
   text-align: center; }
@@ -8399,12 +8407,14 @@ span {
   font-weight: 300;
   color: black; }
 
+/*Estilos de fondo*/
 .fondo-principal {
   background-color: #ffffffe3; }
 
 .fondo-secundario {
   background: linear-gradient(90deg, rgba(235, 231, 227, 0.808) 0%, rgba(78, 83, 87, 0.808) 0%, rgba(106, 110, 114, 0.795) 13%, rgba(182, 179, 163, 0.795) 96%); }
 
+/*Button*/
 .presentacion-contenido button {
   margin-bottom: 20px;
   box-shadow: 3px -3px 5px 5px #7282e2ab;
@@ -8414,6 +8424,7 @@ span {
   animation-duration: 1s;
   animation-iteration-count: infinite; }
 
+/*Formulario*/
 .formulario {
   margin: 10%;
   background-color: #2e2c2c;
@@ -8430,78 +8441,13 @@ span {
   text-align: center;
   margin-top: 15px; }
 
+/*Marcas*/
 .marcas {
   background-color: #ffffffe3; }
 
 .marcas-nombres {
   display: flex;
   flex-direction: column; }
-
-@media (min-width: 1024px) {
-  .nav-link {
-    margin: 0 50px; }
-  .navbar {
-    background-color: #d7c2b77a; }
-  #navbarNav {
-    justify-content: center; } }
-
-@media (min-width: 1024px) {
-  header {
-    padding-top: 15%; } }
-
-@media (min-width: 1024px) {
-  .mapa iframe {
-    width: 600px;
-    height: 600px; } }
-
-@media (min-width: 1024px) {
-  #cursos {
-    width: 80%;
-    margin: auto;
-    display: block;
-    opacity: 0.9;
-    border-radius: 20%; } }
-
-/* Estilo Page Proyectos */
-.proyecto-img {
-  display: grid;
-  grid-template-areas: "proyecto1 proyecto1 proyecto2" "proyecto1 proyecto1 proyecto3" "proyecto5 proyecto6 proyecto4";
-  align-items: stretch;
-  justify-items: center;
-  border: 2px #706016;
-  border-style: double; }
-
-.proyecto {
-  width: 100%;
-  display: block; }
-
-.proyecto-item h3, .proyecto-item .h3 {
-  background-color: #ADA996;
-  margin: 20px;
-  border: double 5px #fbfbfb;
-  border-radius: 30%; }
-
-.proyecto1 {
-  grid-area: proyecto1; }
-
-.proyecto2 {
-  grid-area: proyecto2; }
-
-.proyecto3 {
-  grid-area: proyecto3; }
-
-.proyecto4 {
-  grid-area: proyecto4; }
-
-.proyecto5 {
-  grid-area: proyecto5; }
-
-.proyecto6 {
-  grid-area: proyecto6; }
-
-.proyecto:hover {
-  -webkit-transform: scale(1.4);
-  transform: scale(1.4); }
 
 /* Animaciones */
 @keyframes botoninicio {
@@ -8528,9 +8474,76 @@ span {
   50% {
     scale: 1.05; } }
 
+/*Container*/
 .contenedor {
   padding-bottom: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center; }
+
+/*MediaQueries*/
+@media (min-width: 1024px) {
+  .nav-link {
+    margin: 0 50px; }
+  .navbar {
+    background-color: #d7c2b77a; }
+  #navbarNav {
+    justify-content: center; } }
+
+@media (min-width: 1024px) {
+  header {
+    padding-top: 15%; } }
+
+@media (min-width: 1024px) {
+  .mapa iframe {
+    width: 600px;
+    height: 600px; } }
+
+@media (min-width: 1024px) {
+  #cursos {
+    width: 80%;
+    margin: auto;
+    display: block;
+    opacity: 0.9;
+    border-radius: 20%; } }
+
+/* Estilo Page Proyectos */
+.proyecto-galeria {
+  display: grid;
+  grid-template-areas: "proyecto1 proyecto1 proyecto2" "proyecto1 proyecto1 proyecto3" "proyecto5 proyecto6 proyecto4";
+  align-items: stretch;
+  justify-items: center; }
+
+.proyecto-item h3, .proyecto-item .h3, .proyecto1, .proyecto2, .proyecto3, .proyecto4, .proyecto5, .proyecto6 {
+  border: solid 5px rgba(0, 0, 0, 0.39);
+  border-radius: 5%; }
+
+.proyecto1, .proyecto2, .proyecto3, .proyecto4, .proyecto5, .proyecto6 {
+  width: 100%;
+  display: block; }
+  .proyecto1:hover, .proyecto2:hover, .proyecto3:hover, .proyecto4:hover, .proyecto5:hover, .proyecto6:hover {
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4); }
+
+.proyecto-item h3, .proyecto-item .h3 {
+  background-color: #ADA996;
+  margin: 20px; }
+
+.proyecto1 {
+  grid-area: proyecto1; }
+
+.proyecto2 {
+  grid-area: proyecto2; }
+
+.proyecto3 {
+  grid-area: proyecto3; }
+
+.proyecto4 {
+  grid-area: proyecto4; }
+
+.proyecto5 {
+  grid-area: proyecto5; }
+
+.proyecto6 {
+  grid-area: proyecto6; }

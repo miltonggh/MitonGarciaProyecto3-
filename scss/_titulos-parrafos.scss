@@ -1,3 +1,5 @@
+/*Estilo de Texto*/ 
+
 @mixin fonts ($size, $style, $weight, $color) {
     font-size: $size;
     font-style: $style;
@@ -46,4 +48,5 @@ p {
 
 span{
     @include fonts ( $font-size, italic, $font-weight*.75, $color-parrafos);
+    
 }

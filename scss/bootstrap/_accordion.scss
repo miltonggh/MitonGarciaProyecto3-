@@ -4,6 +4,8 @@
 
 .accordion {
   margin: 16px;
+  max-width: 70%;
+
 
   // scss-docs-start accordion-css-vars
   --#{$prefix}accordion-color: #{$accordion-color};
@@ -52,7 +54,6 @@
     background-color: #ada9964f;
     font-size: 1.5rem;
     box-shadow: inset 0 calc(-1 * var(--#{$prefix}accordion-border-width)) 0 var(--#{$prefix}accordion-border-color); // stylelint-disable-line function-disallowed-list
-
     &::after {
       background-image: var(--#{$prefix}accordion-btn-active-icon);
       transform: var(--#{$prefix}accordion-btn-icon-transform);

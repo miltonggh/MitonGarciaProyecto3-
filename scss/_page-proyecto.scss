@@ -1,6 +1,6 @@
 /* Estilo Page Proyectos */
 
-.proyecto-img {
+.proyecto-galeria {
     display: grid;
     grid-template-areas: 
     "proyecto1 proyecto1 proyecto2"
@@ -9,47 +9,61 @@
     
     align-items: stretch;
     justify-items: center;
-    border: 2px rgb(112, 96, 22);
-    border-style: double;
+
 
 }
 
-.proyecto {
+%border {
+    border: solid 5px rgba(0, 0, 0, 0.39);
+    border-radius: 5%;
+}
+
+%proyecto {
     width: 100%;
     display: block;
+        &:hover {
+            -webkit-transform:scale(1.4);transform:scale(1.4);
+        }
 }
 
 .proyecto-item h3{
     background-color: $color-card-accordion-navbar;
     margin: 20px;
-    border: double 5px rgb(251, 251, 251);
-    border-radius: 30%;
+    @extend %border;
 }
 
 .proyecto1 {
     grid-area: proyecto1;
+    @extend %border;
+    @extend %proyecto
 }
 
 .proyecto2 {
     grid-area: proyecto2;
+    @extend %border;
+    @extend %proyecto
 }
 
 .proyecto3 {
     grid-area: proyecto3;
+    @extend %border;
+    @extend %proyecto
 }
 
 .proyecto4 {
     grid-area: proyecto4;
+    @extend %border;
+    @extend %proyecto
 }
 
 .proyecto5 {
     grid-area: proyecto5;
+    @extend %border;
+    @extend %proyecto
 }
 
 .proyecto6 {
     grid-area: proyecto6;
-}
-
-.proyecto:hover {
-    -webkit-transform:scale(1.4);transform:scale(1.4);
+    @extend %border;
+    @extend %proyecto
 }

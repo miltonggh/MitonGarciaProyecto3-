@@ -1,21 +1,22 @@
-    footer{
-        background: $color-fondo-principal-gradiente;
-        border-top: 1px rgb(52, 52, 52)   solid;
-    }
+ /*Footer*/    
 
-    .derechos p {
-        text-align: center;
-        font-size: $font-size;
-    }
+footer{
+    background: $color-fondo-principal-gradiente;
+    border-top: 1px rgb(52, 52, 52)   solid;
+}
 
-    .redes{
-        padding-bottom: 15px;
-        
-            ul{
-                display: flex;
-                justify-content: space-around;
-                list-style: none;
-                padding: 0;
-                
-            }
-    }
+.derechos p {
+    font-size: $font-size;
+}
+
+.redes{
+    padding-bottom: 15px;
+    
+    ul{
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+            padding: 0;
+            
+        }
+}
