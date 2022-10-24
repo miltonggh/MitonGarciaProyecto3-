@@ -1,6 +1,7 @@
 /* Estilo Page Proyectos */
 
 .proyecto-galeria {
+    margin: 5%;
     display: grid;
     grid-template-areas: 
     "proyecto1 proyecto1 proyecto2"
@@ -14,21 +15,24 @@
 }
 
 %border {
-    border: solid 5px rgba(0, 0, 0, 0.39);
+    border: solid 2px rgba(0, 0, 0, 0.39);
     border-radius: 5%;
 }
 
 %proyecto {
-    width: 100%;
+    width: 90%;
+    margin: 10%;
     display: block;
         &:hover {
-            -webkit-transform:scale(1.4);transform:scale(1.4);
+            -webkit-transform:scale(1.5);transform:scale(1.5);
         }
 }
 
 .proyecto-item h3{
-    background-color: $color-card-accordion-navbar;
-    margin: 20px;
+    background-color: $color-fondo-principal-gradiente;
+    padding: 5%;
+    margin: 10%;
+    display: inline-block;
     @extend %border;
 }
 
